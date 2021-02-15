@@ -1,0 +1,60 @@
+.indicaprod {
+    color:#000;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif !important;
+  }
+  
+  .generadorcodigo {
+    display: block;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 5px;
+  }
+  
+  .generadorcodigo input, .generadorcodigo select, .generadorcodigo textarea {
+    background: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    font-family: sans-serif !important;
+    line-height: 1.5em !important;
+    border: 1px solid #333;
+    border-radius: 3px;
+  }
+  
+  .generadorcodigo textarea {
+    resize: none;
+    height: 820px;
+  }
+  
+  .generadorcodigo button {
+    font-family: sans-serif !important;
+    margin: 10px auto;
+    padding: 5px 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #ffffff;
+    background: #b30000;
+    border: 1px solid #b30000;
+    border-radius: 3px;
+  }
+  
+  @media screen and (max-width: 752px) {
+    .generadorcodigo {
+      float:none;
+      width: 100%;
+    }
+    .generadorcodigo input, .generadorcodigo select, .generadorcodigo textarea {
+      margin: 8px;
+    }
+    .generadorcodigo textarea {
+      height: 300px;
+    }
+  }
